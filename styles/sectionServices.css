@@ -1,0 +1,78 @@
+.wrapper .container section.services {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 65px 150px 70px 0;
+    column-gap: 140px;
+}
+
+.wrapper .container section.services .title {
+    max-width: 35%;
+}
+
+.wrapper .container section.services .title h2 {
+    color: #706458;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.wrapper .container section.services .title a {
+    text-decoration: none;
+    color: #A06056;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+}
+
+
+.wrapper .container section.services .servicesBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 50%;
+}
+
+.wrapper .container section.services .servicesBlock .information {
+    padding-top: 20px;
+    box-sizing: border-box;
+    max-width: 250px;
+}
+
+
+
+.wrapper .container section.services .servicesBlock .information h4 {
+    color: #A06056;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    margin: 0;
+}
+
+.wrapper .container section.services .servicesBlock .information p {
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+}

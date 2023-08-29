@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+}
+
+
+.wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.wrapper .container{
+width: 1440px;
+box-sizing: border-box;
+display: flex;
+flex-wrap: wrap;
+padding-left: 150px;
+background-color: #F3EEE8;
+}
+.wrapper .containerWhite{
+    background-color: white;
+}
+
+
+@font-face {
+    font-family:Merriweather;
+    src: url(../assets/fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family:Varta;
+    src: url(../assets/fonts/Varta/static/Varta-Regular.ttf);
+}
+@font-face {
+    font-family:Karla;
+    src: url(../assets/fonts/Karla/static/Karla-Regular.ttf);
+}
+
+

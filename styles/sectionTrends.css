@@ -1,0 +1,195 @@
+.wrapper .container section.sectionTrends {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.wrapper .container section.sectionTrends header.headerSectionTrends {
+    display: flex;
+    column-gap: 185px;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title {
+    max-width: 440px;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .learnMore {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title h3 {
+    color: #121212;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+    margin: 0;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title p {
+    margin: 0;
+    margin: 15px 0 10px 0;
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore a span {
+    color: #A06056;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore img {
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends form {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends form input {
+    width: 295px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    background: rgba(243, 238, 232, 0.30);
+    border: 0;
+    display: flex;
+    padding: 15px 15.095px 10px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends form input::placeholder {
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends form .inputSubmit {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Karla;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    border-radius: 1px;
+    background: #534B42;
+    display: flex;
+    width: 143.113px;
+    height: 50px;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.wrapper .container section.sectionTrends header.headerSectionTrends form a:hover {
+    background: #60574c;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow {
+    padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 225px;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    box-sizing: border-box;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3, .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p {
+    margin: 0;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-style: normal;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3 {
+    color: #534B42;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p {
+    color: #706458;
+    font-family: Varta;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    max-width: 360px;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .buttons a {
+    gap: 10px;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .buttons img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.wrapper .container section.sectionTrends section.inspirationsAndSlideshow .buttons p {
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: 10px;
+}

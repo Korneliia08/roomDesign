@@ -1,0 +1,26 @@
+
+@media(max-width: 1440px) {
+    .wrapper .container section.services{
+        padding: 0 0 0 0;
+        justify-content: center;
+    }
+    .wrapper .container section.services .title{
+        max-width: 100%;
+    }
+    .wrapper .container section.services .servicesBlock{
+        max-width: 100%;
+        justify-content: center;
+
+    }
+    .wrapper .container section.services .title h2{
+        text-align: center;
+        width: 100%;
+
+    }
+
+}
+
+
+@media(max-width: 460px) {
+
+}

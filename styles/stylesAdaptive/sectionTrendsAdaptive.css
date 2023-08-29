@@ -1,0 +1,50 @@
+
+@media(max-width: 1440px) {
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container{
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
+
+    }
+}
+
+@media(max-width: 1000px) {
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
+        width: 40%;
+    }
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3{
+        padding-bottom: 17px;
+        width: 100%;
+        text-align: center;
+    }
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p{
+        padding-bottom: 17px;
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+    }
+    .wrapper .container section.sectionTrends header.headerSectionTrends form{
+             flex-wrap: wrap;justify-content: center;
+         }
+}
+
+@media(max-width: 485px) {
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
+width: 30%;
+    }
+    .wrapper .container section.sectionTrends header.headerSectionTrends form .inputSubmit{
+        margin-left: 0px;
+    }
+
+}
+
+@media(max-width: 355px) {
+    .wrapper .container section.sectionTrends header.headerSectionTrends form input{
+        width: 80%;
+    }
+
+}
+
+

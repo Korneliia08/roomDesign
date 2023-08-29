@@ -1,0 +1,120 @@
+.wrapper .container header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.wrapper .container header .imageIcon .ContactImage{
+ position: absolute;
+ right: 50px;
+ top:50px;
+ width: 
+ 50px;
+}
+
+
+
+.wrapper .container header section {
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    padding-top: 55px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: min-content;
+}
+
+.wrapper .container header section h4 {
+    margin: 0;
+    height: min-content;
+    margin-right: 32px;
+    color: #A06056;
+    font-family: Merriweather;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+.wrapper .container header section nav {
+    height: min-content;
+}
+
+.wrapper .container header section nav a {
+    text-decoration: none;
+    color: #706458;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 24px;
+}
+
+.wrapper .container header section nav a:last-child {
+    margin: 0;
+}
+
+.wrapper .container header section .title {
+    height: min-content;
+    width: 100%;
+    padding: 110px 150px 0 0;
+
+}
+
+.wrapper .container header section .title .arrowBottom {
+    margin-top: 48px;
+display: block;
+width: 50px;
+
+}
+.wrapper .container header section .title .arrowBottom img {
+
+width: 50px;
+
+}
+
+
+.wrapper .container header section .title h2 {
+    color: #A06056;
+    font-family: Varta;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.wrapper .container header section .title h1{
+    color: #A06056;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: -0.4px;
+    margin: 50px 0 30px 0;
+  
+}
+
+.wrapper .container header section .title p{
+    color: rgba(112, 100, 88, 0.90);
+    font-family: Varta;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30.8px; 
+    margin: 0;
+}
+
+
+html body div.wrapper div.container header div.imageIcon{
+    width: 55%;
+}
+
+.wrapper .container header .imageIcon img {
+    max-width: 100%;
+    width: max-content;
+    height: max-content;
+}

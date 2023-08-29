@@ -1,0 +1,118 @@
+.wrapper .container section.SectionRoom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-sizing: border-box;
+    padding: 65px 0 70px 0;
+}
+
+.wrapper .container section.SectionRoom .navigte{
+    width: 100%;
+    display: flex;
+}
+
+.wrapper .container section.SectionRoom .navigte span{
+    color: var(--brown-light, rgba(112, 100, 88, 0.90));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Varta;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+}
+.wrapper .container section.SectionRoom .navigte .next{
+    color: var(--terracotta, #A06056);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 125% */
+    letter-spacing: 0.3px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.wrapper .container section.SectionRoom .navigte .next img{
+    margin-top: 3px;
+}
+
+
+
+.wrapper .container section.SectionRoom .divImg {
+    width: 465px;
+    height: 350px;
+    position: relative;
+}
+
+.wrapper .container section.SectionRoom .divImg p {
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    position: absolute;
+    left: 275px;
+}
+
+
+
+.wrapper .container section.SectionRoom img {
+    position: absolute;
+}
+
+.wrapper .container section.SectionRoom .imgBedroom {
+    position: absolute;
+}
+
+.wrapper .container section.SectionRoom .imgLivingRooms {
+    position: absolute;
+}
+
+
+
+.wrapper .container section.SectionRoom h2 {
+    width: 100%;
+    margin: 0;
+    color: #706458;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+}
+
+
+.wrapper .container section.SectionRoom h3 {
+    color: #A06056;
+    text-align: center;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Merriweather;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.6px;
+    position: absolute;
+    left: 205px;
+    top: 45px;
+}
+
+
+.wrapper .container section.SectionRoom p {
+    max-width: 165px;
+    color: rgba(112, 100, 88, 0.90);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Varta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
