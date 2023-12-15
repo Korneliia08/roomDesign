@@ -107,7 +107,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 25px;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
     border-radius: 1px;
     background: #534B42;
     display: flex;
@@ -117,6 +117,12 @@
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    transition: 700ms;
+
+    &:hover {
+        cursor: pointer;
+        scale: 0.99;
+    }
 }
 
 .wrapper .container section.sectionTrends header.headerSectionTrends form a:hover {
