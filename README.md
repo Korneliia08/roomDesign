@@ -8,4 +8,4 @@ This template:
 * was made with compatibility with lower resolution screens;
 
 ## Template
-![dog](https://github.com/Korneliia08/little-dog/blob/main/assets/images/photoOfProject.png)
+![dog]([https://github.com/Korneliia08/little-dog/blob/main/assets/images/photoOfProject.png](https://github.com/Korneliia08/roomDesign/blob/main/assets/images/photoProject.png)https://github.com/Korneliia08/roomDesign/blob/main/assets/images/photoProject.png)
