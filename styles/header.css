@@ -115,5 +115,5 @@ html body div.wrapper div.container header div.imageIcon {
 .wrapper .container header .imageIcon img {
     max-width: 100%;
     width: max-content;
-    height: max-content;
+    height: min-content;
 }
