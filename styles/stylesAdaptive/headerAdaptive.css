@@ -10,7 +10,6 @@
         width: 100%;
     }
 
-
     .wrapper .container {
         padding-left: 7px;
         padding-right: 7px;
@@ -23,11 +22,14 @@
     }
 
     .wrapper .container header section {
-        padding-top: 20px;
+        padding-top: 5px;
     }
 
     .wrapper .container header section h4 {
-        padding-bottom: 15px;
+        padding-bottom: 0px;
+        margin: 5px 0px 0px 0px;
+        font-size: 25px;
+        line-height: 28px;
     }
 
     .wrapper .container header .imageIcon {
@@ -47,9 +49,10 @@
         width: 100%;
         text-align: center;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
         flex-wrap: wrap;
     }
+
 
     .wrapper .container header section nav a {
 
