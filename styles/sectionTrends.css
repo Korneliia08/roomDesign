@@ -1,11 +1,11 @@
 .wrapper .container section.sectionTrends {
     background-color: rgb(255, 255, 255);
-    width: 100%;
     padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
+    width: calc(100% - 150px);
 }
-
 
 .wrapper .container section.sectionTrends header.headerSectionTrends {
     display: flex;
@@ -23,11 +23,10 @@
 }
 
 
-
 .wrapper .container section.sectionTrends header.headerSectionTrends .title h3 {
     color: #121212;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Merriweather;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Merriweather, cursive;
     font-size: 35px;
     font-style: normal;
     font-weight: 300;
@@ -37,18 +36,17 @@
 }
 
 .wrapper .container section.sectionTrends header.headerSectionTrends .title p {
-    margin: 0;
     margin: 15px 0 10px 0;
     color: rgba(112, 100, 88, 0.90);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
 }
 
-.wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore a{
+.wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -56,8 +54,8 @@
 
 .wrapper .container section.sectionTrends header.headerSectionTrends .title .learnMore a span {
     color: #A06056;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Karla;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Karla, cursive;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -90,8 +88,8 @@
 
 .wrapper .container section.sectionTrends header.headerSectionTrends form input::placeholder {
     color: rgba(112, 100, 88, 0.90);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -103,8 +101,8 @@
     text-decoration: none;
     color: #FFF;
     text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Karla;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Karla, cursive;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -128,14 +126,15 @@
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow {
     padding-top: 65px;
     display: flex;
-    flex-wrap: wrap;
     column-gap: 225px;
+    flex-wrap: wrap;
+
 }
 
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container {
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+
     margin-bottom: 25px;
 }
 
@@ -149,13 +148,13 @@
 
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3, .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p {
     margin: 0;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-style: normal;
 }
 
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3 {
     color: #534B42;
-    font-family: Merriweather;
+    font-family: Merriweather, cursive;
     font-size: 45px;
     font-weight: 300;
     line-height: 40px;
@@ -164,7 +163,7 @@
 
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p {
     color: #706458;
-    font-family: Varta;
+    font-family: Varta, cursive;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -183,13 +182,12 @@
 
 .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .buttons p {
     color: rgba(112, 100, 88, 0.90);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
     opacity: 0.5;
-    margin: 0;
     margin-top: 10px;
 }

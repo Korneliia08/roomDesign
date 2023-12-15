@@ -1,50 +1,64 @@
-
-@media(max-width: 1100px) {
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container{
+@media (max-width: 1100px) {
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container {
         max-width: 100%;
         width: 100%;
         justify-content: center;
     }
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
+
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img {
 
     }
 }
 
-@media(max-width: 1000px) {
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
+@media (max-width: 1000px) {
+    .wrapper .container section.sectionTrends {
+        width: 100%;
+    }
+
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img {
         width: 40%;
     }
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3{
+
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations h3 {
         padding-bottom: 17px;
         width: 100%;
         text-align: center;
     }
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p{
+
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .inspirations p {
         padding-bottom: 17px;
         width: 100%;
         text-align: center;
         max-width: 100%;
     }
-    .wrapper .container section.sectionTrends header.headerSectionTrends form{
-             flex-wrap: wrap;justify-content: center;
-         }
+
+    .wrapper .container section.sectionTrends header.headerSectionTrends form {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
-@media(max-width: 485px) {
-    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img{
-width: 30%;
+@media (max-width: 800px) {
+    .wrapper .container section.sectionTrends header.headerSectionTrends .title h3 {
+        font-size: 29px;
     }
-    .wrapper .container section.sectionTrends header.headerSectionTrends form .inputSubmit{
+}
+
+@media (max-width: 485px) {
+    .wrapper .container section.sectionTrends section.inspirationsAndSlideshow .slideshow-container img {
+        width: 30%;
+    }
+
+    .wrapper .container section.sectionTrends header.headerSectionTrends form .inputSubmit {
         margin-left: 0px;
     }
 
 }
 
-@media(max-width: 355px) {
-    .wrapper .container section.sectionTrends header.headerSectionTrends form input{
+@media (max-width: 355px) {
+    .wrapper .container section.sectionTrends header.headerSectionTrends form input {
         width: 80%;
     }
-
 }
 
 

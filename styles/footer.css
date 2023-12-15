@@ -19,18 +19,19 @@
     height: 25px;
 }
 
-.wrapper footer.container .footerTop table {}
+.wrapper footer.container .footerTop table {
+}
 
 .wrapper footer.container .footerTop table thead th {
-color: #534B42;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Varta;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px;
-letter-spacing: -0.2px;
-text-align: left;
+    color: #534B42;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    text-align: left;
 }
 
 .wrapper footer.container .footerTop table tbody tr {
@@ -39,23 +40,22 @@ text-align: left;
 
 .wrapper footer.container .footerTop table tbody tr td {
     color: #706458;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Varta;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-width: 188px;
-height: 25px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 188px;
+    height: 25px;
 }
 
 
 .wrapper footer.container .footerTop .information h5 {
-    margin: 0;
     margin-bottom: 8px;
     color: #534B42;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -69,10 +69,9 @@ height: 25px;
 
 .wrapper footer.container .footerTop .information p {
     max-width: 220px;
-    margin: 0;
     color: #706458;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -82,9 +81,9 @@ height: 25px;
 
 .wrapper footer.container .footerTop .information a {
     text-decoration: none;
-    color: var(--terracotta, #A06056);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Karla;
+    color: #A06056;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Karla, cursive;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -105,8 +104,6 @@ height: 25px;
 }
 
 
-
-
 .wrapper footer.container .socialMedia a img {
     width: 32px;
     height: 32px;
@@ -121,8 +118,8 @@ height: 25px;
 
 .wrapper footer.container .footerBottom h6, .wrapper footer.container .footerBottom nav a {
     color: rgba(112, 100, 88, 0.70);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

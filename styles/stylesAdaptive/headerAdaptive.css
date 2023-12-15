@@ -1,69 +1,94 @@
-@media(max-width: 1100px){
+@media (max-width: 1100px) {
 
-    html body div.wrapper div.container header div.imageIcon{
+    html body div.wrapper div.container header div.imageIcon {
         max-width: 70%;
         display: flex;
         justify-content: center;
     }
 
     .wrapper .container header .imageIcon img {
-width: 100%;
+        width: 100%;
     }
 
 
-
-    .wrapper .container{
-        padding-left:7px;
+    .wrapper .container {
+        padding-left: 7px;
         padding-right: 7px;
         justify-content: center;
     }
-    .wrapper .container header{
+
+    .wrapper .container header {
         flex-direction: column;
         align-items: center;
     }
-    .wrapper .container header section{
+
+    .wrapper .container header section {
         padding-top: 20px;
     }
-    .wrapper .container header section h4{
+
+    .wrapper .container header section h4 {
         padding-bottom: 15px;
     }
-    .wrapper .container header .imageIcon{
+
+    .wrapper .container header .imageIcon {
         position: relative;
     }
-    .wrapper .container header .imageIcon .photoLamp{
+
+    .wrapper .container header .imageIcon .photoLamp {
         width: 100%
     }
-    .wrapper .container header section{
+
+    .wrapper .container header section {
         width: 100%
     }
-    .wrapper .container header section nav{
+
+    .wrapper .container header section nav {
         display: flex;
         width: 100%;
         text-align: center;
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
         flex-wrap: wrap;
     }
-    .wrapper .container header section nav a{
+
+    .wrapper .container header section nav a {
 
     }
-    .wrapper .container header section .title{
+
+    .wrapper .container header section .title {
         padding: 11px 15px 0 0;
     }
-    .wrapper .container header section .title h1{
+
+    .wrapper .container header section .title h1 {
         text-align: center;
         margin: 15px 0 8px 0;
+
     }
 
-    .wrapper .container header section .title p{
+    .wrapper .container header section .title p {
         text-align: center;
     }
 }
 
-@media(max-width: 1000px){
+@media (max-width: 850px) {
+    .wrapper .container header .imageIcon .ContactImage {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 25px;
+    }
 
+    .wrapper .container header section .title .arrowBottom img {
+        width: 32px;
+    }
 }
 
-@media(max-width: 400px){
-
+@media (max-width: 700px) {
+    .wrapper .container header section .title h1 {
+        text-align: center;
+        margin: 15px 0 8px 0;
+        font-size: 30px;
+        line-height: 34px;
+    }
 }
+

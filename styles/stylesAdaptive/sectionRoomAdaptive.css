@@ -1,16 +1,17 @@
-
-@media(max-width: 1100px) {
-    .wrapper .container section.SectionRoom .divImg{
+@media (max-width: 1100px) {
+    .wrapper .container section.SectionRoom .divImg {
         max-width: 465px;
         max-height: 350px;
 
     }
-    .wrapper .container section.SectionRoom{
+
+    .wrapper .container section.SectionRoom {
 
         flex-direction: column;
-        gap:8px;
+        gap: 8px;
         padding: 60px 0 20px 0;
     }
+
     .wrapper .container section.SectionRoom h2 {
         text-align: center;
         padding-left: 10px;
@@ -18,21 +19,24 @@
         box-sizing: border-box;
 
     }
-    .wrapper .container  .services .title h2 br{
+
+    .wrapper .container .services .title h2 br {
         display: none;
     }
+
     .wrapper .container section.SectionRoom .navigte {
 
         justify-content: space-around;
     }
+
     .wrapper .container section.SectionRoom p {
         max-width: 100%;
     }
 }
 
-@media(max-width: 560px) {
-    .wrapper .container section.SectionRoom .divImg{
-    display: flex;
+@media (max-width: 560px) {
+    .wrapper .container section.SectionRoom .divImg {
+        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -40,20 +44,31 @@
         height: auto;
         width: 100%;
     }
-    .wrapper .container section.SectionRoom .divImg img{
+
+    .wrapper .container section.SectionRoom .divImg img {
 
         position: static;
     }
-    .wrapper .container section.SectionRoom .divImg h3{
+
+    .wrapper .container section.SectionRoom .divImg h3 {
         margin: 5px 0 5px 0;
-    position: static;
+        position: static;
+        font-size: 29px;
+        line-height: 40px;
     }
-    .wrapper .container section.SectionRoom .divImg p{
+
+    .wrapper .container section.SectionRoom .divImg p {
         margin: 5px 0 5px 0;
         position: static;
 
     }
-    .wrapper .container section.SectionRoom{
+
+    .wrapper .container section.SectionRoom {
         padding: 30px 0 20px 0;
+    }
+
+    .wrapper .container section.SectionRoom h2 {
+        font-size: 35px;
+        line-height: 35px;
     }
 }

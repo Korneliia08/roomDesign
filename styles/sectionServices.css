@@ -12,14 +12,13 @@
 
 .wrapper .container section.services .title h2 {
     color: #706458;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Merriweather;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Merriweather, cursive;
     font-size: 55px;
     font-style: normal;
     font-weight: 300;
     line-height: 60px;
     letter-spacing: -0.6px;
-    margin: 0;
     width: 100%;
     margin-bottom: 40px;
 }
@@ -27,8 +26,8 @@
 .wrapper .container section.services .title a {
     text-decoration: none;
     color: #A06056;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Karla;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Karla, sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
@@ -44,6 +43,7 @@
     flex-wrap: wrap;
     gap: 30px;
     max-width: 50%;
+    overflow: hidden;
 }
 
 .wrapper .container section.services .servicesBlock .information {
@@ -53,11 +53,10 @@
 }
 
 
-
 .wrapper .container section.services .servicesBlock .information h4 {
     color: #A06056;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -68,8 +67,8 @@
 
 .wrapper .container section.services .servicesBlock .information p {
     color: rgba(112, 100, 88, 0.90);
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Varta;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Varta, cursive;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
